@@ -1,3 +1,45 @@
+:root{
+    /* declaramos las variables
+    estos son los colores que vamos a utilizae
+    es el archivo mas grande que tenemos, se utiliza 
+    para no utilizar los exadecimal */
+    --naranja: #f90;
+    --blanco: #fff;
+    --negro: #000;
+    --grisOscuro: #272727;
+    --grisClaro: #bbb;
+}
 body{
-    background-color: brown;
+
+       /* agregar un color de fondo parecido a la magen ayuda 
+    cuando cargue la imagen no haya mucho salto visual */
+    background-color: var(--grisOscuro);
+    /* para utilizar una variable utilizamos var()con el 
+    nombre de variable */
+    background-image: url(images/pattern.jpg);
+    /* imagen de fondo que se repite */
+}
+.cabecera,
+.contenido{
+    /* limitamos el ancho de los elementos y los centramos
+    en el medio de la pantalla usando margenes automaticos
+    margin-auto; hace lo mismo */
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cabecera{
+    background-color: var(--blanco);
+    display: flex;
+    justify-content: space-between;
+}
+/* cuando es una clase lleva punto(.)
+el selector de etoqueta no lleva punto */
+.cabecera h1{
+    color: var(--naranja);
+}
+.contenido{
+    background-color: steelblue ;
+    color: var(--blanco);
 }
