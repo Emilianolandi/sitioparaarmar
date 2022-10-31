@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sitio 3 alas</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="./estilos.css">
 </head>
 <body>
     <div class="cabecera">
         <a href="index.html">
-            <img src="images/logo_3alas.png" alt="Ir al inicio">
+            <img src="./images/logo_3alas.png" alt="Ir al inicio">
         </a>
         <h1>The Energy Factory</h1>
     </div>
+    <!-- fin de la cabecera-->
+
     <div class="contenido">
         <div class="nav">
             <ul class="lista">
@@ -38,44 +40,103 @@
             </ul>
             <form action="buscar.js">
                 <!-- Esto no es accesible para lectores de pantalla -->
-                <input type="text" placeholder="buscar en la home">
+                <input type="text" placeholder="Buscar en el sitio...">
                 <input type="submit" value="Buscar">
             </form>
         </div>
-
+        
         <div class="slider">
-            <img src="./images/slide/2.jpg" alt="">
-        </div>
-        <div class="categoria">
-            <h2>categoria</h2>
-            <ul>
-                <li>lamparas de cultivo</li>
-                <li>lamparas</li>
-                <li>lamparas</li>
-                <li>lamparas</li>
-                <li>lamparas</li>
-                <li>lamparas</li>
-                <li>lamparas</li>
-                <li>lamparas</li>
-                <li>lamparas</li>
-            </ul>
-        </div>
-        <div class="masvendidos">
-            <div class="tarjeta-lamparas">
-                <h2>lamparas de led</h2>
-                <img src="./images/lamparas/lampara1.jpg" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium doloremque necessitatibus expedita adipisci ducimus ex, iure repellat, perferendis aliquid culpa id nemo, cum odio? Laudantium eveniet 
-                    consectetur hic atque deserunt.</p>
+            <img src="./images/slide/2.jpg" alt="imagen slider">
+            <div class="contenedor-circulos">
+                <span class="circulo">1</span>
+                <span class="circulo">2</span>
+                <span class="circulo">3</span>
             </div>
-            <div class="tarjeta-lamparas">
-                <p></p>
+        </div>
 
-            </div>
-            <div class="tarjeta-lamparas">
-
+      
+        <div class="seccion-categorias">
+            <div class="categorias">
+                <h2>Categorias</h2>
+                <ul class="lista-categorias">
+                    <li>Lámparas de LED</li>
+                    <li>Súper lámparas</li>
+                    <li>Lámparas de LED</li>
+                    <li>Súper lámparas</li>
+                    <li>Lamparas</li>
+                    <li>Accesorios</li>
+                    <li>Lamparas</li>
+                    <li>Lámparas de LED</li>
+                    <li>Disipadores</li>
+                    <li>Lamparas</li>
+                    <li>Lámparas de LED</li>
+                    <li>Lamparas</li>
+                    <li>Lámparas de LED</li>
+                </ul>
+            </div>            
+            <div class="mas-vendidas">
+                <div class="tarjeta-lampara">
+                    <h2>Lampara de LED</h2> 
+                    <img src="./images/lamparas/lampara1.jpg" alt="lamparas">  
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magni voluptatibus saepe aspernatur, vitae dolorum quisquam eveniet.</p>      
+                </div>
+                <div class="tarjeta-lampara">
+                    <h2>Lampara de LED</h2> 
+                    <img src="./images/lamparas/lampara1.jpg" alt="lamparas">  
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magni voluptatibus saepe aspernatur, vitae dolorum quisquam eveniet.</p> 
+                </div>
+                <div class="tarjeta-lampara">
+                    <h2>Lampara de LED</h2> 
+                    <img src="./images/lamparas/lampara1.jpg" alt="lamparas">  
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magni voluptatibus saepe aspernatur, vitae dolorum quisquam eveniet.</p> 
+                </div>
+                <div class="tarjeta-lampara opcion2">
+                    <h2>Lampara de LED</h2> 
+                    <img src="./images/lamparas/lampara1.jpg" alt="lamparas">  
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magni voluptatibus saepe aspernatur, vitae dolorum quisquam eveniet.</p> 
+                </div>        
             </div>
         </div>
+        <div class="news">
+
+            <div class="suscripcion">
+                <img src="./images/sobre.png" alt="sobre de newsletter">
+                <div class="info-news">
+                    <h2>Recibi nuestro newsletter</h2>
+                    <p>Todas las noticias en tu casilla de correo</p>
+                </div>                
+            </div>
+       
+            <form action="">
+                <input type="text">
+                <input class="boton-suscripcion" type="submit" value="Suscribite">
+            </form>
+        </div>
+  
+    
+    <!-- inicia el pie de pagina-->
+        <div class="pie-de-pagina">
+            <div class="copyright">
+                <p>&copy; 2011 3Alas</p>
+                <p>Todos los derechos reservados</p>
+            </div>
+
+            <address class="direccion-HK">
+                Hong Kong<br>
+                68 Wing Lok Street 10th Floor<br>
+                Sheung Wang<br>
+                Phono +85265045972
+            </address>
+            <address class="direccion-BSAS">
+                Buenos Aires<br>
+                Av. Directorio 2243 6B<br>
+                Capital Federal<br>
+                Tel/Fax: +54 11 4454-2943
+            </address>
+
+            <p class="firma">Por <a href="#">Kalama Diseno</a></p>
+        </div>  
     </div>
-
+    <!-- finaliza contenido-->
 </body>
 </html>
